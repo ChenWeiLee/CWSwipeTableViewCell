@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CWSwipeTableViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CWTableViewCellProtocol,UITableViewDelegate, UITableViewDataSource>
 
 
 @end
